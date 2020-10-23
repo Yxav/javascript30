@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.pad {
+  width: 100%;
+  max-width: 1100px;
+  height: 700px;
+  margin: 10% 5px 7px 22%;
+
+  border-radius: 10px;
+
+  background-color: rgba(0, 0, 0, 0.878);
+
+  display: grid;
+  grid-template-columns: repeat(3, 15rem);
+  grid-gap: 10px;
+}
+
+.pad .keys {
+  background-color: rgba(149, 149, 170, 0.789);
+  margin: 1rem 1rem 0.6rem 13rem;
+  width: 13rem;
+  height: 12rem;
+
+  border-radius: 5px;
+}
+.pad .key {
+  display: flex;
+  justify-content: center;
+}
